@@ -16,25 +16,12 @@ class Connection
 	protected $db_server;
 	
 	# localhost
-	protected $db_hostname = 'localhost';
-	protected $db_database = 'web45-pride';
-	protected $db_username = 'admin';
-	protected $db_password = 'jgw1774';
+	protected $db_hostname = '';
+	protected $db_database = '';
+	protected $db_username = '';
+	protected $db_password = '';
 
 	protected $mysqli;
-
-	# outinreading.co.uk/pride
-	#protected $db_hostname = 'cust-mysql-123-11';
-	#protected $db_database = 'pride';
-	#protected $db_username = 'pride';
-	#protected $db_password = 'pridedb';
-	#protected $db_server;
-
-	# readingpride.co.uk
-	// protected $db_hostname = 'localhost';
-	// protected $db_database = 'web45-pride';
-	// protected $db_username = 'web45-pride';
-	// protected $db_password = 'pridedb';
 	
 	function connect()
 	{

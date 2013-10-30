@@ -2,7 +2,13 @@ img/
 *.jpg
 *.jpeg
 *.gif
+*.png
+*.pdf
 *~
 Smarty/
 smarty_base/templates_c/
 smarty_base/cache/
+ckeditor/
+downloads/
+js/
+jquery-*
