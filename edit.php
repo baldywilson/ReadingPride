@@ -1,36 +1,13 @@
 <?php
-require_once 'authenticate.php';
 
-// Check the session
-// session_start();
-// if(isset($_SESSION['sessionid']) && isset($_SESSION['claimedid']))
-// {
-	// We have session. Is it valid
-// 	$sessionid = scrub($_SESSION['sessionid']);
-// 	$claimedid = scrub($_SESSION['claimedid']);
-// 	$connection = new Connection();
-// 	$connection->connect();
-// 	$query = "SELECT * FROM users WHERE sessionid='$sessionid'";
-// 	$results = $connection->query($query);
-// 	$rowcount = mysql_num_rows($results);
-// 	if($rowcount != 1)
-// 	{
-// 		header("Location: /pride/userlogin.php?invalidsessionid=$sessionid");
-// 		exit;
-// 	}
-// 	$row = mysql_fetch_array($results);
-// 	if(md5("s3ssionsalt" . $row['idusers']) != $claimedid)
-// 	{
-// 		header('Location: /pride/userlogin.php?invalidclaimedid=true');
-// 		exit;
-// 	}
-// }
-// else
-// {
-// 	header('Location: /pride/userlogin.php?nosession=true');
-// 	exit;
-// }
-// TODO: Generate a new session.
+// For editting article text.
+//
+// Users must be authenticated which is why we do minimal checks
+// on input. I will be removing the 'color' entry from the entire
+// system as it didn't end up getting used in the way I'd originally
+// planned so it's now completely redundant.
+
+require_once 'authenticate.php';
 
 $pageid = 0;
 $title = "";

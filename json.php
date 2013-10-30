@@ -1,5 +1,10 @@
 <?php
 
+// THIS FILE IS NOT PUT ON THE SITE
+//
+// This is simply a way to generate reasonably secure passwords
+// when adding users to the site.
+
 if(isset($_GET['value']))
 {
 	$tpwd = $_GET['value'];

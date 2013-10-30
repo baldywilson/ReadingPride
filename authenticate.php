@@ -1,5 +1,15 @@
 <?php
 
+// Authenticates the current session.
+//
+// To require authentication before accessing a script, simply
+// put require_once 'authenticate.php' at the beginning of the
+// script.
+//
+// If there is no session, or the session is invalid, redirect
+// the user to the authentication page and display the login
+// required template, otherwise simply continue.
+
 session_start();
 
 require_once 'login.php';

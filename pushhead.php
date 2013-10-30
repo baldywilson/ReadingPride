@@ -1,5 +1,12 @@
 <?php
 
+// Pushes a new headline article onto the main site
+//
+// This is not currently linked to from anywhere, so pushing
+// a headline requires manually going to pushhead.php?id={article_id}
+// This will put that article as the *second* article in the list
+
+
 require_once 'authenticate.php';
 
 $id = 0;

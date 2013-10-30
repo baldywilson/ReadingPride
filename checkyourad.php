@@ -1,5 +1,10 @@
 <?php
 
+// INCOMPLETE, NOT ON WEBSITE
+//
+// The intent here is to allow people to check the dimensions of
+// an ad before uploading it. Never really got around to finishing this
+
 require_once 'login.php';
 
 $rootpath = $_SERVER['DOCUMENT_ROOT'];

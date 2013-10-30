@@ -2,7 +2,7 @@
 
 // list.php
 //
-// Provides a list of all articles in the database, together with their link ids
+// Provides a list of all sponsors in the database, together with their link ids
 // to allow easy editting. This will become subject to session management
 
 require_once 'authenticate.php';
