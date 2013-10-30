@@ -1,0 +1,98 @@
+	/* style the form */
+
+	form {
+
+		font-size: 8pt;
+		display: block;
+		margin-top: 20px;
+		border: solid 1px #BEE6F1;
+		/*width: 90%;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background: #E8F6FA;
+		color: #165667;
+	}
+
+	form span {
+		display: inline-block;
+		padding-right: 10px;
+		margin-right: 10px;
+		width: 150px;
+		text-align: right;
+		border-right: solid 1px #BEE6F1;
+	}
+
+
+	form input, textarea {
+		border: solid 1px #6AC6DF;
+		padding: 5px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+
+	form input[type=text]{
+		width: 300px;
+	}
+
+	form fieldset {
+		position: relative;
+		border: solid 1px #BEE6F1;
+		padding:20px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		margin: 20px;
+	}
+
+	form label {
+		display: inline-block;
+		width: 160px;
+		text-align: right;
+		padding-right: 10px;
+	}
+
+	form legend {
+		font-weight: bold;
+		margin-left: 20px;
+	}
+
+	form .usethis {
+
+		position: absolute;
+		left: 10px;
+		top: 0px;
+	}
+
+	form div .description {
+
+		padding-bottom: 20px;
+		color: #0D333D;
+	}
+
+	div .text {
+		padding: 20px;
+		font-weight: normal;
+	}
+
+	form fieldset > div {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	form .highlight {
+		box-shadow:4px 4px 4px #7A7A7A;
+	} 
+
+	form .no-highlight {
+		box-shadow:1px 1px 2px #7A7A7A;
+	}
+
+	form #formnav {
+		display: block;
+		float: right;
+		height: 30px;
+
+	}

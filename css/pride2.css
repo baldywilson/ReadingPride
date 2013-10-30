@@ -1,0 +1,21 @@
+
+#columnMain {
+	float: right;
+	width: 380px;
+}
+
+#columnLeft {
+	float: left;
+	width: 120px;
+}
+
+#columnRight {
+	float: right;
+	width: 120px;
+}
+
+#enclose {
+	clear: both;
+	padding-top: 1em;
+	text-align: center;
+}

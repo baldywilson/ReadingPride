@@ -1,0 +1,47 @@
+/* CSS file for the administration control panel */
+
+div.cpanel {
+	font-size: 8pt;
+	display: block;
+	margin-top: 20px;
+	border: solid 1px #BEE6F1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #E8F6FA;
+	color: #165667;
+}
+
+div.cpanel p {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+div.cpanel a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #165667;
+}
+
+div.cpanel a:hover {
+	color: #289CBB;
+}
+
+div.cpanel li {
+	list-style: ;
+	font-size: 16px;
+}
+
+div.cpanel li a {
+	font-weight: normal;
+}
+div.cpanel div.warning a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #E24B5B;
+}
+
+div.cpanel div.warning a:hover {
+	color: #F0A3AB;
+}

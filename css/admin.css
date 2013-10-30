@@ -1,0 +1,313 @@
+		/* --- BEGIN CSS RESET --- */
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		/* --- END CSS RESET --- */
+
+
+
+		html {
+			background-image: url(/img/page_body_bg.jpg);
+			background-size: 100% auto;
+			background-position: 0% 0%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			font-size: 10px;
+			font-family: Verdana, Geneva, Helvetica, sans-serif;
+		}
+
+		body {
+			position: relative;
+			background: white;
+			width:750px;
+			border: solid 1px #165667;
+			-webkit-box-shadow: 3px 1px 8px rgba(50, 50, 50, 0.75);
+			-moz-box-shadow:    3px 1px 8px rgba(50, 50, 50, 0.75);
+			box-shadow:         3px 1px 8px rgba(50, 50, 50, 0.75);
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding: 20px;
+		}
+
+		p {
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		a img {
+			border: none;
+		}
+
+		h1 {
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 35px;
+			font-weight: normal;
+			text-align: right;
+			float: right;
+			padding-top:10px;
+		}
+
+		div ul {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		div ul li {
+			list-style: disc inside;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			margin-left: 20px;
+		}
+
+		ul li strong {
+			font-weight:bold;
+		}
+
+		img #logo {
+			position: abosolute;
+			left: 10px;
+			top: 10px;
+		}
+
+		h2 {
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 25px;
+			padding-left: 20px;
+			border-bottom: solid 1px #BEE6F1;
+			padding-bottom: 5px;
+		}		
+
+		#logo_container {
+			margin-bottom: 20px;
+		}
+
+		#navcontainer{
+			height: 22px;
+			border-top: solid 1px black;
+			border-bottom: solid 1px black;
+		}
+
+		ul.navbar  {
+			display: block;
+			font-size: 10px;
+			font-weight: bold;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		ul.navbar > li {
+			list-style: none;
+			display: block;
+			float: left;
+			padding: 0px;
+			margin: 0px;
+			
+			
+		}
+
+		ul.navbar > li a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			width: 70px;
+			height: 14px;
+			text-align: center;
+			border-right: solid 1px black;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin-top: 5px;
+		}
+
+		.content {
+			margin-top:20px;
+			clear: both;
+		}
+
+		.admin_warning {
+			margin-top:20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			background-color: #FFBDC4;
+			border: solid 1px #FF576E;
+			color: #8A0013;
+		}
+
+		.admin_warning strong {
+			font-weight: bold;
+		}
+
+		.admin_warning a {
+			font-weight: bold;
+			text-decoration: none;
+			color: #E24B5B;
+		}
+
+		.warning {
+			margin-top:20px;
+			margin-left: 30px;
+			margin-right: 30px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			background-color: #FFBDC4;
+			border: solid 1px #FF576E;
+			color: #8A0013;
+		}
+
+		.warning strong {
+			font-weight: bold;
+		}
+
+		div.warning a {
+			font-weight: bold;
+			text-decoration: none;
+			color: #E24B5B;
+		}
+
+		table {
+			width: 100%;
+		}
+
+		th {
+			font-weight: bold;
+			margin-left: 5px;
+			margin-right: 5px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: #D64040;
+			color: #FAE8E8;
+		}
+
+		td {
+			margin-left: 5px;
+			margin-right: 5px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			padding-left: 5px;
+		}
+
+		tr {
+			height: 45px;
+		}
+
+		tr.headrow {
+			background-color: #FAE8E8;
+		}
+
+		.rowdataalt {
+			background-color: #CCDEDB;
+		}
+
+		.rowdata {
+			background-color: #EBF2F1;
+		}
+
+		.long_desc {
+			background-color: #94D6E8;
+		}
+
+		.long_descalt{
+			background-color: #CCDEDB;
+			margin-bottom: 10px;
+
+		}
+
+/* The following styles are from the main site layour, and are used to control the CKEditor
+   formatting */
+
+a.quicklink
+{
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #406C9C;
+}
+
+a.quicklink:hover
+{
+	color: #BCD9F7
+}
+
+a.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #080808;
+	padding: 10px 20px;
+	text-decoration: none;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffffff 50%,
+		#d6d6d6);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		color-stop(0.50, #ffffff),
+		to(#d6d6d6));
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 0px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.1),
+		0px 1px 0px rgba(255,255,255,1);
+}
+

@@ -1,0 +1,8 @@
+img/
+*.jpg
+*.jpeg
+*.gif
+*~
+Smarty/
+smarty_base/templates_c/
+smarty_base/cache/

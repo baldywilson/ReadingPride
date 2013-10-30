@@ -1,0 +1,294 @@
+		/* --- BEGIN CSS RESET --- */
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		/* --- END CSS RESET --- */
+html {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border: solid #A7A2B2 1px;
+	font-size: 14px;
+	font-family: Verdana, Geneva, Helvetica, sans-serif;
+	line-height: 130%;
+}
+
+body {
+	padding: 10px;
+	
+}
+
+.banner h1 {
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+	padding: 10px;
+}
+
+#page1 .banner h1 {
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+	padding: 10px;
+	text-indent: -4000px;
+	background: url(img/helpingout.png);
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 563px;
+}
+
+.pagewrapper {
+	position: relative;
+}
+
+/*.banner img {
+	float: right;
+}*/
+
+.banner .issuestamp {
+	float: right;
+	font-weight: bold;
+	text-align: right;
+	font-size: 10px;
+	color: #AE6969;
+}
+
+.banner .issuestamp div {
+	padding-top: 15px;
+}
+
+
+.pagewrapper {
+	position: relative;
+}
+
+.introtext {
+	margin-top: 30px;
+	padding-top: 5px;
+	
+	clear: both;
+	border-top: solid #A7A2B2 1px;
+	line-height: 140%;
+
+	font-size: 12px;
+	color: #AE6969;
+}
+
+.introtext .with_bottom_border {
+	border-bottom: solid #A7A2B2 1px;
+}
+
+
+.introtext h2 {
+	font-height: 25px;
+	font-weight: bold;
+	display: block;
+}
+#page1 .introtext {
+	font-weight: bold;
+}
+
+.leftcolumn {	
+	margin-top: 20px;
+	width: 480px;
+	margin-right: 20px;
+	float: left;
+}
+
+.contentbox {
+	margin-top: 30px;
+	line-height: 130%;
+	border: solid #A7A2B2 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+.shaded {
+	background-color: #E5CBCB;
+}
+
+.contentbox li {
+	list-style: disc;
+	list-style-position: inside;
+	padding-left: 20px;
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.contentbox p {
+	padding: 10px;
+}
+
+.contentbox strong {
+	font-weight: bold;
+	color: #AE6969;
+}
+
+.contentbox h2 {
+	font-size: 20px;
+	color: #AE6969;
+	margin-left: 10px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.rightcolumn {
+	margin-top: 20px;
+	width: 270px;
+	float: right;
+}
+
+.long {
+	width: 480px;
+}
+
+.short {
+	width: 270px;
+}
+
+.even {
+	width: 375px;
+}
+
+.with_separator {
+	margin-top: 10px;
+	border-top: solid 4px #A7A2B2;
+	padding-top: 10px;
+}
+
+.imagebox {
+	padding-top: 10px;
+	margin-top: 30px;
+	text-align: center;
+	border: solid #A7A2B2 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.imagebox img {
+	margin-top: 10px;
+}
+
+.imagebox .caption {
+	
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.navbar {
+	/*position: relative;*/
+	height: 30px;
+}
+
+.nextbtn {
+	position: absolute;
+	left: 810px;
+	top: 100px;
+	width: 50px;
+	height: 200px;
+	background: url('img/next.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.2;
+	cursor: hand; cursor: pointer;
+
+	
+}
+
+.prevbtn {
+	position: absolute;
+	left: -90px;
+	top: 100px;
+	width: 50px;
+	height: 200px;
+	background: url('img/prev.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.2;
+	cursor: hand; cursor: pointer;
+}
+
+.trailer {
+	padding-top: 15px;
+	clear: both;
+}
+
+.greybg {
+	opacity: 0.9;
+	background-color: #CFCFCF;
+}
+
+/*.pageselect {
+
+}
+
+.pageselect ul {
+	margin:auto;
+	float:left;
+}
+
+.pageselect ul > li {
+	float:left;
+	width:20px;
+}
+
+.reset {
+	clear: both;
+}*/
