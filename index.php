@@ -12,7 +12,9 @@
 // entries for the current month in the year 2014 index.php&month=3 will return
 // entries for the current year March and index.php&month=4&year=2014 will return
 // entries for April 2014
+
 require_once 'login.php';
+
 
 $rootpath = $_SERVER['DOCUMENT_ROOT'];
 require "$rootpath/Smarty/Smarty.class.php";
