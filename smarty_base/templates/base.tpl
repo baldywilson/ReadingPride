@@ -123,14 +123,14 @@
 			<div id="main_navbar">
 				<ul class="navbar_1">
 					<li><a class="col_red_hover" href=".">Home</a></li>
-					<li><a class="col_orange_hover" href="view.php?category=parade">Parade</a></li>
-					<li><a class="col_yellow_hover" href="view.php?category=festival">Festival</a></li>
+					{* <li><a class="col_orange_hover" href="view.php?category=parade">Parade</a></li> *}
+					{* <li><a class="col_yellow_hover" href="view.php?category=festival">Festival</a></li> *}
 					<li><a class="col_green_hover" href="view.php?category=about">About Us</a></li>
 					<li><a class="col_blue_hover" href="view.php?category=getinvolved">Get Involved</a></li>
 					<li><a class="col_red_hover" href="view.php?category=market">Market</a></li>
-					<li><a class="col_orange_hover" href="view.php?category=events">Events</a></li>
+					{* <li><a class="col_orange_hover" href="view.php?category=events">Events</a></li> *}
 					<li><a class="col_yellow_hover" href="contactus.php">Contact Us</a></li>
-					<li><a class="col_green_hover" href="view.php?category=gettingthere">Travel</a></li>
+					{* <li><a class="col_green_hover" href="view.php?category=gettingthere">Travel</a></li> *}
 					<!-- <li><a href="view.php?category=community">Community</a></li> -->
 					<!-- <li><a href="view.php?category=media">Media</a></li> -->
 					<!-- <li><a href="view.php?category=contact">Contact</a></li> -->
