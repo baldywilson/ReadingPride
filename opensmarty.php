@@ -16,26 +16,22 @@ class Connection
 	protected $db_server;
 
 	# localhost
-	protected $db_hostname = 'localhost';
-	protected $db_database = 'pride';
-	protected $db_username = 'admin';
-	protected $db_password = 'jgw1774';
-
-	# outinreading.co.uk/pride
-	#protected $db_hostname = 'cust-mysql-123-11';
-	#protected $db_database = 'pride';
-	#protected $db_username = 'pride';
-	#protected $db_password = 'pridedb';
-	#protected $db_server;
-
-	# readingpride.co.uk
-	// protected $db_hostname = 'localhost';
-	// protected $db_database = 'web45-pride';
-	// protected $db_username = 'web45-pride';
-	// protected $db_password = 'pridedb';
+	protected $db_hostname;
+	protected $db_database;
+	protected $db_username;
+	protected $db_password;
 
 	function connect()
 	{
+		$r = $_SERVER['DOCUMENT_ROOT'];
+
+		$dbini = parse_ini_file("dbconfig.ini");
+
+		$this->db_hostname = $dbini['hostname'];
+		$this->db_database = $dbini['database'];
+		$this->db_username = $dbini['username'];
+		$this->db_password = $dbini['password'];
+
 		$this->db_server = mysql_connect($this->db_hostname, $this->db_username, $this->db_password);
 		if(!$this->db_server)
 		{
